@@ -1,0 +1,20 @@
+# Network pharmacology combined with experimental verification to explore the potensial mechanism of naringenin in the treatment of cervical cancer
+## Latar Belakang Penelitian
+Kanker serviks (CC) merupakan keganasan ginekologis paling umum kedua yang menyerang wanita di seluruh dunia. Berdasarkan data dari Global Oncology 2020 sekitar 57.000 diagnosis dan 37.000 kematian setiap tahunnya dalam ruang lingkup global. Insiden ini menjadi ancaman besar bagi kesehatan dan umur panjang wanita. Pengobatan kontemporer seperti radioterapi dan kemoterapi mengurangi tingkat kematian namun efek toksik dan efek sampingnya sangat besar secara berkepanjangan, bahkan beberapa tahun terakhir sel kanker serviks telah mengembangkan resistensi tersendiri sehingga mengurangi efektivitasnya. Pengobatan tradisional menjadi solusi dari permasalahan ini. Naringenin, bahan aktif yang mengandung dihidro-flavonoid dalam buah-buahan dan obat herbal tradisional, diketahui memiliki aktivitas anti-inflamasi, antioksidan, dan anti-tumor. Namun, mekanisme molekuler naringenin dalam menghambat perkembangan kanker serviks masih belum dipahami secara menyeluruh. Oleh karena itu, penelitian ini mengombinasikan pendekatan network pharmacology dengan memfokuskan pada “component-target-pathway”.
+## Tujuan Penelitian
+Tujuan studi ini untuk memprediksi dan mengidentifikasi target serta mekanisme yang mungkin dari naringenin dalam anti-kanker serviks melalui farmakologi jaringan dan eksperimen berbasis sel.
+## Workflow Penelitian
+Penelitian terlebih dahulu memprediksi target naringenin menggunakan PubChem, ChemSrc, PharmMapper, dan UniProt. Selanjutnya target kanker serviks diperoleh dari database GEO dan GeneCards, kemudian dicari pertemuan target yang tepat dengan Venny. Target tersebut dianalisis melalui jaringan PPI (STRING dan Cytospace), analisis jalur GO dan KEGG, serta dilakukan molekular docking dengan AutoDock Vina. Hasil prediksi kemudian divalidasi secara in vitro menggunakan sel Hela melalui uji CCK-8, wound healing assay, Transwell invasion assay dan Western blot.
+## Hasil Penelitian
+Penelitian ini memperoleh 287 target potensial naringenin dan 2.560 target terkait kanker serviks, dengan 85 target yang saling beririsan. Terdapat 20 target hub teratas yaitu AKT1, EGFR, CASP3, SRC, ESR1, MMP9, MMP2, RHOA, PPARG, MAPKK14, dan lain-lain. Molekulernya diperkaya dalam aktivitas kinase, pengikatan faktor transkripsi, aktivitas reseptor nuklir, pengikatan kinase, dan lain-lain. Dalam analisis KEGG ada berbagai keterlibatan jalur terutama jalur PI3K-Akt, MAPK, Rap1, AGE-RAGE, Ras, Foxo, HIF-1, dan jalur pensinyalan estrogen. Dalam molecular docking menggunakan Auto Dock Vina menunjukkan afinitas ikatan tertinggi pada struktur protein MMP9 dan AKT1. Validasi ini diuji dengan penyembuhan luka untuk menilai dampak naringenin pada migrasi sel HeLa. Bukti ini menunjukkan bahwa naringenin dapat menghambat migrasi dan invasi sel kanker serviks. Studi lanjut menghasilkan hasil menekan ekspresi protein EGFR, PI3K, p-PI3K, p-AKT, dan MTOR serta meningkatkan caspace-3. Temuan ini menunjukkan bahwa efek antikanker naringenin dapat dimediasi melalui pemghambatan jalur EGFR/PI3K/AKT/mTOR.
+## Kelebihan dan Kekurangan 
+### Kelebihan dari penelitian ini:
+* Menggabungkan analisis bioinformatika dengan validasi eksperimen sehingga hasil lebih kuat. 
+* Menggunakan beberapa database publik sehingga identifikasi target lebih jelas. 
+* Mekanisme kerja naringenin juga terbukti hingga tingkat molekuler.  
+### Keterbatasan dari penelitian ini:
+* Validasi ini hanya dilakukan secara in vitro, belum menggunakan model hewan. 
+* Jalur lain dari analisis KEGG belum diuji secara eksperimental. 
+* Belum dapat langsung menggambarkan efektivitas klinis pada pasien kanker serviks.
+## Insight
+Paper ini menunjukkan bahwa pendekatan network pharmacology mampu menjelaskan mekanisme kerja senyawa alami secara sistematis sebelum dilakukan penelitian laboratorium. Pendekaran seperti ini sangat bermanfaat dalam pengembangan kandidat obat berbahan alam yang lebih efektif dan memiliki toksisitas lebih rendah.
