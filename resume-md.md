@@ -18,3 +18,5 @@ Penelitian ini memperoleh 287 target potensial naringenin dan 2.560 target terka
 * Belum dapat langsung menggambarkan efektivitas klinis pada pasien kanker serviks.
 ## Insight
 Paper ini menunjukkan bahwa pendekatan network pharmacology mampu menjelaskan mekanisme kerja senyawa alami secara sistematis sebelum dilakukan penelitian laboratorium. Pendekaran seperti ini sangat bermanfaat dalam pengembangan kandidat obat berbahan alam yang lebih efektif dan memiliki toksisitas lebih rendah.
+
+![Contoh Docking](/docking.jpg "Contoh Docking")
