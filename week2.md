@@ -37,18 +37,18 @@ Terdapat 14 gen irisan antara target penyakit aterosklerosis dan target senyawa 
 
 Degree menunjukkan jumlah hubungan langsung yang dimiliki suatu protein dengan protein lain dalam jaringan. Semakin tinggi nilai degree, semakin besar pengaruh protein tersebut dalam jaringan interaksi. Dalam tabel yang telah diolah menggunakan cyto Hubba dengan menggunakan metode Degree, lima protein dengan nilai tertinggi adalah IL6, TNF, INS, EGFR, dan IL1B. Protein-protein tersebut diperkirakan berperan sebagai hub gene karena memiliki konektivitas paling tinggi yang berpotensi menjadi regulator utama dalam proses inflamasi, regulasi metabolisme, proliferasi sel, serta respons imun yang berkontribusi terhadap perkembangan aterosklerosis. Oleh karena itu, protein-protein tersebut diperkirakan menjadi target utama yang dimodulasi oleh senyawa aktif Scutellariae Radix-Coptidis Rhizoma.
 
-![This is an alt text.](/image/Markdown-mark.svg "This is a sample image.")
+![Jaringan Protein-Protein Interaction (PPI) dengan STRING.](/jaringan.png "Jaringan Protein-Protein Interaction (PPI) dengan STRING.")
 **Gambar 2. Jaringan Protein-Protein Interaction (PPI) dengan STRING**
 
 Jaringan PPI menunjukkan hubungan antara protein hasil irisan yang diprediksi saling berinteraksi dalam mekanisme biologis aterosklerosis. Berdasarkan hasil analisis menggunakan STRING, sebagian besar protein target saling terhubung membentuk jaringan interaksi kompleks. Hubungan tersebut menunjukkan bahwa mekanisme perkembangan aterosklerosis tidak dikendalikan oleh satu protein saja, melainkan melibatkan berbagai protein yang saling mempengaruhi. 
 
-![This is an alt text.](/image/Markdown-mark.svg "This is a sample image.")
+![Visualisasi jaringan interaksi senyawa-target-pathway.](/visualisasi.png "Visualisasi jaringan interaksi senyawa-target-pathway.")
 **Gambar 3. Visualisasi jaringan interaksi senyawa-target-pathway**
 
 Senyawa aktif bekerja melalui mekanisme multi-target dan multi-pathway, sehingga satu senyawa mampu berinteraksi dengan beberapa protein target sekaligus. Senyawa β-sitosterol, berberine, dan wogonin berinteraksi dengan beberapa target protein yaitu PPARA, FABP1, FABP5, NR1H3, ESR1. Target-target tersebut berhubungan dengan PPAR signaling pathway. Hubungan antara senyawa aktif, target protein, dan jalur biologis tersebut menunjukkan bahwa efek terapeutik kombinasi tanaman ini memungkinkan diperoleh melalui modulasi berbagai proses biologis yang saling berkaitan.
 
-![This is an alt text.](/image/Markdown-mark.svg "This is a sample image.")
-![This is an alt text.](/image/Markdown-mark.svg "This is a sample image.")
+![Analysis Gene Ontology.](/go.png "Analysis Gene Ontology.")
+![Analisis KEGG.](/kegg.png "Analisis KEGG.")
 **Gambar 4. Hasil enrichment analysis Gene Ontology dan KEGG dalam STRING**
 
 Analisis GO kategori Biological Process menunjukkan bahwa target hasil irisan terutama terlibat dalam proses adenylate cyclase-activating adrenergic receptor signaling pathway, adenylate cyclase-activating G protein-coupled receptor signaling pathway, blood circulation, cellular response to chemical stimulus, dan cellular response to lipid. Proses-proses tersebut berkaitan erat dengan mekanisme inflamasi, stres oksidatif, regulasi apoptosis, maupun metabolisme lipid yang diketahui berperan dalam perkembangan aterosklerosis.
@@ -62,4 +62,4 @@ Hasil analisis network pharmacology menunjukkan bahwa senyawa bioaktif Scutellar
 Ji, L., Song, T., Ge, C., Wu, Q., Ma, L., Chen, X., Chen, T., Chen, Q., Chen, Z., & Chen, W. (2023). Identification of bioactive compounds and potential mechanisms of Scutellariae Radix-Coptidis Rhizoma in the treatment of atherosclerosis by integrating network pharmacology and experimental validation. Biomedicine & Pharmacotherapy, 165, 115210. https://doi.org/10.1016/j.biopha.2023.115210 
 
 ## Workflow
-![This is an alt text.](/image/Markdown-mark.svg "This is a sample image.")
+![Workflow.](/Workflow.png "Workflow.")
