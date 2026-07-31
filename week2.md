@@ -5,7 +5,7 @@ Scutellariae Radix dan Coptidis Rhizoma merupakan kombinasi tanaman obat tradisi
 
 Senyawa aktif diidentifikasi dalam literatur pendukung, diolah dengan mengidentifikasi dari PubChem & Swiss Target Prediction, OMIM, membuat irisan antara target senyawa dan target penyakit, serta PPI dikonstruksi dengan STRING dan divisualisasikan melalui Cytoscape. Analisis GO dan KEGG pathway dilakukan terhadap target irisan untuk mengidentifikasi fungsi biologis serta jalur molekuler yang paling berperan dalam mekanisme kerja senyawa aktif.
 
-![Irisan gen target aterosklerosis dan target metabolit](/Irisangen.png "Irisan gen target aterosklerosis dan target metabolit")
+![Irisan gen target aterosklerosis dan target metabolit.](/irisan.png "Irisan gen target aterosklerosis dan target metabolit.")
 **Gambar 1.Irisan gen target aterosklerosis dan target metabolit**
 
 Terdapat 14 gen irisan antara target penyakit aterosklerosis dan target senyawa aktif Scutellariae Radix-Coptidis Rhizoma. Hasil tersebut menunjukkan bahwa senyawa aktif memiliki potensi dalam memodulasi berbagai target molekuler yang berperan dalam patogenesis aterosklerosis. 
